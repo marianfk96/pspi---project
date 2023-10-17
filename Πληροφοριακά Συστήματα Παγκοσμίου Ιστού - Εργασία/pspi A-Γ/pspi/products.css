@@ -1,0 +1,80 @@
+/* BEGIN CODE HERE */
+header{
+    height: 150px;
+    border-bottom-style: ridge;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ header ul li{
+    text-decoration: underline;
+    list-style-type: none;
+    margin-right: 40px;
+ }
+
+
+.frame4container{
+    width: 1200px;
+    height:300px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.frame5container{
+    width: 1200px;
+    height:400px;
+    margin: auto;
+    margin-top: 25px;
+    display:grid;
+}
+
+
+
+.FieldContainer{
+    height: 35px;
+    width: 200px;
+}
+
+.InputContainer{
+    height: 35px;
+    width: 250px;
+}
+
+.container{
+    background-color: blue;
+}
+
+.bar{
+    display: inline-flex;
+    margin-bottom: 10px;
+}
+
+.AddAProduct
+{
+    font-size: 20px;
+}
+
+
+ footer{
+    margin-top: 25px;
+    height: 100px;
+    border-top-style: ridge;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.col-form-label,.form-control
+{
+    margin-bottom: 15px;
+    
+}
+
+.but1{
+    margin-left:1100px;
+}
+
+
+
+ /* END CODE HERE */

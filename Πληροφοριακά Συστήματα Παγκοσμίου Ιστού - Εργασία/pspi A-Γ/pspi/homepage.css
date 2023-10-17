@@ -1,0 +1,84 @@
+/* BEGIN CODE HERE */
+
+header{
+    height: 150px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-style: ridge;
+}
+
+ header ul li{
+    text-decoration: underline;
+    list-style-type: none;
+    margin-right: 40px;
+ }
+
+ header ul li:last-of-type{
+    margin-right: 0px;
+ }
+
+footer{
+    margin-top: 25px;
+    height: 100px;
+    border-top-style: ridge;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.frame1container{
+    width: 1200px;
+    height: 400px;
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+}
+.img1container{
+    float: right;
+    width: 50%;
+    height: 400px;
+}
+.container1{
+    margin: 0;
+    height: 400px;
+    width: 50%;
+}
+
+.frame2container{
+    width: 1200px;
+    height: 400px;
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+}
+
+.c1, .c2, .c3, .c4{
+    width: 25%;
+    height: 400px;
+}
+
+.c31, .c32, .c41, .c42{
+    height: 50%;
+    width: 300px;
+}
+
+.c41{
+    padding-top: 170px;
+    padding-left: 150px;
+}
+
+.c42{
+    padding-top: 90px;
+    padding-left: 0px;
+}
+
+.frame3container{
+    width: 1200px;
+    height: 400px;
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+}
+
+/* END CODE HERE */
